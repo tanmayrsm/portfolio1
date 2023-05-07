@@ -41,8 +41,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   line-height: normal;
 }
-
-p, a, li, button, ul {
+li {
+  list-style-type: circle;
+}
+p, a, button{
   margin: 0;
   padding: 0;
   line-height: normal;
@@ -70,7 +72,7 @@ input:focus, textarea:focus, select:focus {
 @media (min-width:1700px) {
 	main .container {
 		max-width: 100%;
-		padding: 0 150px;
+		padding: 0 10px;
 	}
 }
 
@@ -306,11 +308,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 .skill-bx {
-  background: #151515;
-  border-radius: 64px;
   text-align: center;
-  padding: 60px 50px;
-  margin-top: -60px;
 }
 .skill h2 {
 	font-size: 45px;
@@ -418,17 +416,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  height: 60%;
+  min-height: 15rem;
 }
 .proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  opacity: 0.85;
+  opacity: 0.65;
   position: absolute;
   width: 100%;
   height: 0;
   transition: 0.4s ease-in-out;
 }
-.proj-imgbx:hover::before {
+.proj-imgbx::before {
   height: 100%;
 }
 .proj-txtx {
@@ -441,7 +441,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 0;
   width: 100%;
 }
-.proj-imgbx:hover .proj-txtx {
+.proj-imgbx .proj-txtx {
   top: 50%;
   opacity: 1;
 }
@@ -469,7 +469,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 60px 0 20px 0;
 }
 .contact img {
   width: 92%;
@@ -546,6 +546,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.footer .container {
+  padding: 10px !important;
+  max-width: 100% !important;
+}
 .newsletter-bx {
   background: #FFFFFF;
   border-radius: 55px;
@@ -615,4 +619,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+.description {
+  font-size: 13px !important;
 }

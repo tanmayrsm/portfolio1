@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Software Engineer", "Full Stack developer", "Curious learner" ];
+  const toRotate = [ "Software engineer", "Fullstack developer", "Curious learner" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,8 +56,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Tanmay, a`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Engineer", "Full Stack developer", "Curious learner" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Experienced software engineer proficient in multiple programming languages and skilled in software design, coding, testing, and deployment. Passionate about staying up-to-date with the latest technologies and trends in the field. A team player committed to delivering high-quality software products. </p>
+                <h1>{`Hi! I'm Tanmay , a `} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software engineer", "Fullstack developer", "Curious learner" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>Experienced software engineer proficient in multiple programming languages and skilled in software design, coding, testing, and deployment. Passionate about staying up-to-date with the latest technologies and trends in the field. A team player committed to delivering high-quality software products.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

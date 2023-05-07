@@ -1,45 +1,47 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
+import instaClone from "../assets/img/instaClone.PNG";
+import fbClone from "../assets/img/fbClone.PNG";
+import youtubeClone from "../assets/img/youtubeClone.PNG";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import java from '../assets/img/logos/java.png';
+import angular from '../assets/img/logos/angular.png';
+import next from '../assets/img/logos/next.png';
+import mysql from '../assets/img/logos/mysql.png';
+import mongo from '../assets/img/logos/mongo.png';
+import tailwind from '../assets/img/logos/tailwind.png';
+import react from '../assets/img/logos/react.png';
+import spring from '../assets/img/logos/spring.png';
+import fb from '../assets/img/logos/fb.png';
+import nodejs from '../assets/img/logos/nodejs.png';
+import kafka from '../assets/img/logos/kafka.png';
+import rxjs from '../assets/img/logos/rxjs.png';
 
 export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Instagram clone",
+      description: "A PWA app (technology -ReactJs, NodeJS, Firebase, MUI, socket.IO), which comes up with features like Posting, messaging, creating stories, video call, etc",
+      imgUrl: instaClone,
+      techStack : [react, nodejs, fb, tailwind],
+      gitUrl : 'https://github.com/tanmayrsm/instagram-react-clone'
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Facebook clone",
+      description: "A webapp, covering features like adding posts, instant messaging, important pings through emails etc. (technology - nextJs, spring boot, MySQL, Kafka)",
+      imgUrl: fbClone,
+      techStack : [next, react, mysql, spring, kafka],
+      gitUrl : 'https://github.com/tanmayrsm/fb-clone'
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+      title: "Youtube clone",
+      description: "Youtube like app, including functionalities like upload video, like , add comment, etc. (technology - Angular 12, Java 11, Spring boot, mongo DB, firebase)",
+      imgUrl: youtubeClone,
+      techStack : [angular, spring, java, mongo, fb, rxjs],
+      gitUrl : 'https://github.com/tanmayrsm/demo-clone'
+    }
   ];
 
   return (
@@ -49,22 +51,12 @@ export const Projects = () => {
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+              <div>
                 <h2>Projects</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                <p>Personal projects, developed for increasing learning curve and expand my horizon of tech stack</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                    </Nav.Item>
-                  </Nav>
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                  
+                  <Tab.Content id="slideInUp">
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
@@ -79,12 +71,6 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
               </div>}
@@ -92,7 +78,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
     </section>
   )
 }
