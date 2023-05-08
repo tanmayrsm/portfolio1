@@ -25,7 +25,7 @@ let timelineElements = [
     subTitle : "Software Engineer",
     location: "Mumbai, Powai",
     description:
-      '<ul><li>Developing webapp acting as prior steps for <b>credit rating / credit analysis</b> of any entity (company) </li><li> Design and implementing <b>user interface</b> Merging and maintaining features with APKs to ensure seamless experience in handheld device and desktops </li><li> Creating microservices, APIs , <b>middleware(Kafka)</b> for messaging systems and writing optimized queries</li><ul>',
+      '<ul><li>Developing webapp acting as prior steps for <b>credit rating / credit analysis</b> of any entity (company) </li><li> Design and implementing <b>user interface</b> Merging and maintaining features with APKs to ensure seamless experience in handheld device and desktops </li><li> Creating microservices, APIs , <b>middleware(Kafka)</b> for messaging systems and writing optimized queries</li><li>Tech stack - Angular 12+, Spring boot, Java, reactJs, Kafka, MySQL</li><ul>',
     buttonText: "View Frontend Projects",
     date: "November 2022 - present",
     icon: "work",
@@ -37,7 +37,7 @@ let timelineElements = [
     subTitle: "Systems Engineer",
     location: "Pune, Sahyadri Park",
     description:
-      "<ul><li>Designed and integrated functional <b>UI widgets</b>, which combine to contribute for overall soothing experience</li><li> Production of user experiences in <b>no-code manner</b> </li><li>Created <b>vscode extensions</b> to upgrade documentation productivity for client Improved overall UI rendering process to 200% to deliver rich user experience</li><ul>",
+      "<ul><li>Designed and integrated functional <b>UI widgets</b>, which combine to contribute for overall soothing experience</li><li> Production of user experiences in <b>no-code manner</b> </li><li>Created <b>vscode extensions</b> to upgrade documentation productivity for client Improved overall UI rendering process to 200% to deliver rich user experience</li><li>Tech stack - Angular 8+, Progressive Web App (PWA), Spring boot, Java, rxjs, Javascript</li><ul>",
     buttonText: "View Backend Projects",
     date: "August 2020 - November 2022",
     icon: "work",
