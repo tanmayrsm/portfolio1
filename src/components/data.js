@@ -39,7 +39,7 @@ let timelineElements = [
     description:
       '<ul><li>Developing webapp acting as prior steps for <b>credit rating / credit analysis</b> of any entity (company) </li><li> Design and implementing <b>user interface</b> Merging and maintaining features with APKs to ensure seamless experience in handheld device and desktops </li><li> Creating microservices, APIs , <b>middleware(Kafka)</b> for messaging systems and writing optimized queries</li><li>Tech stack - Angular 12+, Spring boot, Java, reactJs, Kafka, MySQL</li><ul>',
     buttonText: "View Frontend Projects",
-    date: "November 2022 - present",
+    date: "November 2022 - March 2024",
     icon: "work",
     techStack :[angular, spring, kafka, react, mysql, js]
   },
