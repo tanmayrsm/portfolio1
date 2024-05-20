@@ -20,6 +20,18 @@ import kafka from '../assets/img/logos/kafka.png';
 
 let timelineElements = [
   {
+     id: -1,
+      title: "Cisco",
+      subTitle : "SDE-3",
+      location: "Bengaluru, Karnataka",
+      description:
+        '<ul><li>Helping deliver systems, and maintaining analytics of <b>cisco products</b> (hardware and software) </li><li> Creating microservices, and message queues to deliver <b>seamless server-side experience</b> to user. </li><li>Tech stack - Spring boot, Java, Kafka, Mongo, Elasticsearch, Logstash, Angular</li><ul>',
+      buttonText: "View Frontend Projects",
+      date: "May 2024 - present",
+      icon: "work",
+      techStack :[spring, kafka, js, angular] 
+  },
+  {
     id: 1,
     title: "CRISIL Ltd",
     subTitle : "Software Engineer",
