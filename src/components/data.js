@@ -26,7 +26,7 @@ let timelineElements = [
       subTitle : "SDE-3",
       location: "Bengaluru, Karnataka",
       description:
-        '<ul><li><b>Delivering Hawk Systems</b>: A one-stop portal for merchants to manage accounts, view actions, receive recommendations, and access offers.</li><li><b>Tech Initiatives</b>: Migrating test cases from Cypress to Playwright with X\ coverage and parallel cross-browser testing (3 browsers); implementing GraphQL queries and backend API with a utility structure for reusability.",
+        '<ul><li><b>Delivering Hawk Systems</b>: A one-stop portal for merchants to manage accounts, view actions, receive recommendations, and access offers.</li><li><b>Tech Initiatives</b>: Migrating test cases from Cypress to Playwright with 99.5% coverage and parallel cross-browser testing (3 browsers); implementing GraphQL queries and backend API with a utility structure for reusability.</li></ul>",
       date: "Feb 2025 - present",
       icon: "work",
       techStack :[react, nodejs, tailwind, js, spring, kafka] 
