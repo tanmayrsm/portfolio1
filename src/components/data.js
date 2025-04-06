@@ -17,6 +17,7 @@ import nodejs from '../assets/img/logos/nodejs.png';
 import htm from '../assets/img/logos/html.png';
 import azure from '../assets/img/logos/azure.png';
 import kafka from '../assets/img/logos/kafka.png';
+import elk from '../assets/img/logos/elk.png';
 
 
 let timelineElements = [
@@ -26,7 +27,7 @@ let timelineElements = [
       subTitle : "SDE-3",
       location: "Bengaluru, Karnataka",
       description:
-        '<ul><li><b>Delivering Hawk Systems</b>: A one-stop portal for merchants to manage accounts, view actions, receive recommendations, and access offers.</li><li><b>Tech Initiatives</b>: Migrating test cases from Cypress to Playwright with 99.5% coverage and parallel cross-browser testing (3 browsers); implementing GraphQL queries and backend API with a utility structure for reusability.</li></ul>",
+        '<ul><li><b>Delivering Hawk Systems</b>: A one-stop portal for merchants to manage accounts, view actions, receive recommendations, and access offers.</li><li><b>Tech Initiatives</b>: Migrating test cases from Cypress to Playwright with 99.5% coverage and parallel cross-browser testing (3 browsers); implementing GraphQL queries and backend API with a utility structure for reusability.</li></ul>',
       date: "Feb 2025 - present",
       icon: "work",
       techStack :[react, nodejs, tailwind, js, spring, kafka] 
@@ -41,7 +42,7 @@ let timelineElements = [
       buttonText: "View Frontend Projects",
       date: "May 2024 - Feb 2025",
       icon: "work",
-      techStack :[spring, kafka, js, angular] 
+      techStack :[spring, kafka, js, angular, elk] 
   },
   {
     id: 1,
