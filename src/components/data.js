@@ -18,16 +18,28 @@ import htm from '../assets/img/logos/html.png';
 import azure from '../assets/img/logos/azure.png';
 import kafka from '../assets/img/logos/kafka.png';
 
+
 let timelineElements = [
+  {
+     id: -2,
+      title: "PayPal",
+      subTitle : "SDE-3",
+      location: "Bengaluru, Karnataka",
+      description:
+        '<ul><li><b>Delivering Hawk Systems</b>: A one-stop portal for merchants to manage accounts, view actions, receive recommendations, and access offers.</li><li><b>Tech Initiatives</b>: Migrating test cases from Cypress to Playwright with X\ coverage and parallel cross-browser testing (3 browsers); implementing GraphQL queries and backend API with a utility structure for reusability.",
+      date: "Feb 2025 - present",
+      icon: "work",
+      techStack :[react, nodejs, tailwind, js, spring, kafka] 
+  },
   {
      id: -1,
       title: "Cisco",
       subTitle : "SDE-3",
       location: "Bengaluru, Karnataka",
       description:
-        '<ul><li>Helping deliver systems, and maintaining analytics of <b>cisco products</b> (hardware and software) </li><li> Creating microservices, and message queues to deliver <b>seamless server-side experience</b> to user. </li><li>Tech stack - Spring boot, Java, Kafka, Mongo, Elasticsearch, Logstash, Angular</li><ul>',
+        '<ul><li>Delivered and maintained analytics systems for <b>Cisco products</b> (hardware and software), ensuring <b>100%</b> uptime for critical services.</li><li> Implemented and automated jobs, scheduling systems that processed <b>1M tx/day</b>. </li><li>Made flow to check inconsistency in data, and generate insights in splunk.</li><ul>',
       buttonText: "View Frontend Projects",
-      date: "May 2024 - present",
+      date: "May 2024 - Feb 2025",
       icon: "work",
       techStack :[spring, kafka, js, angular] 
   },
